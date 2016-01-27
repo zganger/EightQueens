@@ -1,0 +1,5 @@
+\\Mac\Home\Documents\Software_Engineering\EightQueens\Lab4\obj\Debug\EightQueens.Form1.resources
+\\Mac\Home\Documents\Software_Engineering\EightQueens\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+\\Mac\Home\Documents\Software_Engineering\EightQueens\Lab4\obj\Debug\EightQueens.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Software_Engineering\EightQueens\Lab4\obj\Debug\Lab4.exe
+\\Mac\Home\Documents\Software_Engineering\EightQueens\Lab4\obj\Debug\Lab4.pdb

@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
-using System.Media;
 
 namespace Lab4
 {
@@ -237,8 +230,11 @@ namespace Lab4
                     space drawSpace = ((space)coordinates[i]);
                     if (drawSpace.isClicked(e.X, e.Y))
                     {
-                        drawSpace.setOccupied(false);
-                        totalQueens--;
+                        if (drawSpace.isOccupied())
+                        {
+                            drawSpace.setOccupied(false);
+                            totalQueens--;
+                        }
                     }
                 }
             }
@@ -264,7 +260,6 @@ namespace Lab4
     }
     public partial class space
     {
-        private int color;
         private int x;
         private int y;
         private int row;
